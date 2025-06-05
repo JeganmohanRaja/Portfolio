@@ -12,7 +12,13 @@
     .w3-row-padding img {margin-bottom: 12px}
     .w3-sidebar {width: 150px;background: #222;}
     #main {margin-left: 120px}
-    @media only screen and (max-width: 800px) {#main {margin-left: 0}}
+
+    /* Responsive Fix */
+    @media only screen and (max-width: 800px) {.w3-sidebar {display: none;} 
+    #main {
+      margin-left: 0;
+    }
+    }
     </style>
   </head>
 <body class="w3-black">
